@@ -1,4 +1,4 @@
-# YOLO铁路检测模型训练
+#  YOLO铁路检测模型训练
 
 本项目使用YOLO模型在铁路检测数据集上进行目标检测训练。
 
@@ -66,7 +66,8 @@ print(torch.cuda.is_available())
 
 ```bash
 python train_yolo.py
-```
+```.
+![人工标记](./人工标记.png)
 
 ### 训练参数说明
 
@@ -179,6 +180,7 @@ results[0].show()
 ## 许可证
 
 本项目仅供学习和研究使用。
+
 
 
 
